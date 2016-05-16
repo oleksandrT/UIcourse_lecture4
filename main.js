@@ -38,6 +38,7 @@ window.onload = function () {
         slideW = slider.children[0].clientWidth;
         currentMarginLeft = "0px";
         slider.style.marginLeft = "0px";
+        maxShift = - (slideW * (slidesN - 1));
     }
 
 };
